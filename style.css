@@ -1,0 +1,61 @@
+* {
+  background-color: black;
+}
+
+.heading {
+  font-size: 12rem;
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.tagline {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  margin-left: 300px;
+  color: white;
+  font-size: 2rem;
+  font-family: Lato, sans-serif;
+}
+/* Navbar Container */
+.navbar1 {
+  color: white;
+  position: absolute; /* Positions it relative to the screen */
+  top: 0; /* Sticks it to the top */
+  right: 0; /* Aligns it to the right */
+  padding: 10px 20px; /* Optional: Adds some spacing */
+  background-color: black; /* Optional: Background for visibility */
+}
+
+/* List Style */
+.navbar1 ul {
+  list-style-type: none; /* Removes bullets */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  display: flex;
+  justify-content: space-between; /* Aligns list items in a row */
+  gap: 10px; /* Adds space between items */
+}
+
+/* List Items */
+.navbar1 li {
+  display: flex; /* Ensures items sit next to each other */
+  margin-top: 30px;
+  margin-left: 25px; /* Adds space to the left of each item */
+  margin-right: 15px;
+}
+
+/* Links */
+.navbar1 a {
+  text-decoration: none; /* Removes underline */
+  color: #007bff; /* Bootstrap-like blue color for links */
+  font-weight: bold; /* Makes text bold */
+}
+
+.navbar1 a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
